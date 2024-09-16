@@ -37,6 +37,6 @@ Que las flores amarillas llenen tu día de alegría y esperanza. es como compart
         // Ocultar mensaje personalizado después de 90 segundos
         setTimeout(() => {
             mensajePersonalizado.style.display = 'none';
-        }, 10000);
+        }, 20000);
     }
 });
