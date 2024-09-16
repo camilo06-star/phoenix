@@ -1,34 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EJEMPLO DE HTML Y CSS </title>
-    <link rel="stylesheet" href="/pagina de prueba/index.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f4f4f4;
-        }
-        h1 {
-            color: #333;
-        }
-        p {
-            color: #555;
-        }
-        a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <title>Camilo dedica Flores Amarillas</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Bienvenido a mi página web</h1>
-    <p>Este es un párrafo de ejemplo para mostrar cómo se usa HTML básico.</p>
-    <p>Para más información, visita <a href="https://www.example.com" target="_blank">este enlace</a>.</p>
+    <header>
+        <h1> Tus Flores Amarillas</h1>
+    </header>
+    <main>
+        <section id="principal">
+            <h2>Ingresa tu nombre:</h2>
+            <form id="formulario">
+                <input type="text" id="nombre" name="nombre">
+                <button id="enviar">Enviar</button>
+            </form>
+            <div id="mensaje-dedicado">
+                <!-- Mensaje dedicado se agregará aquí -->
+            </div>
+        </section>
+        <section id="galeria">
+            <h2>Galería de Imágenes</h2>
+            <div class="galeria">
+                <img src="https://www.parati.com.ar/wp-content/uploads/2023/09/FLORES-AMARILLAS-DESTACADA-749x561.jpg.webp" alt="Imagen 1">
+                <img src="https://persaflores.com/cdn/shop/articles/porque-regalar-flores-amarillas-el-21-de-septiembre-273472_1400x.jpg?v=1722614617" alt="Imagen 2">
+                <img src="https://www.floresfela.com/wp-content/uploads/2021/01/RAMO-ROSAS-AMARILLAS-scaled-1-scaled.jpg" alt="Imagen 3">
+                <img src="https://cloudfront-us-east-1.images.arcpublishing.com/bloomberglinea/NJKR6OXHYZA5TKBTNL66O5BM3A.jpg" alt="">
+                <img src="https://deshoppingentexas.com/wp-content/uploads/2023/03/shopping-86-2.png" alt="">
+                <img src="https://floreriamanzur.com/wp-content/uploads/2023/09/girasol-con-24-rosas-amarillas-y-margaritas-362x362.jpg" alt="">
+                <img src="https://arreglosfloralesguatemala.com/cdn/shop/products/Mariposaenrosa2_large.jpg?v=1678912055" alt="">
+                <img src="https://www.contramuro.com/wp-content/uploads/2023/03/%C2%BFSabes-por-que-se-regalan-flores-amarillas-el-21-de-marzo.jpg" alt="">
+                <img src="https://cdn2.melodijolola.com/media/files/field/image/por_que_se_regalan_flores_amarillas_el_21_marzo_2.jpg" alt="">
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
